@@ -1,0 +1,23 @@
+.savedNumbers {
+  text-align: center;
+  font-size: 60px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.reset-button {
+  width: auto;
+  height: auto;
+  padding: 30px;
+  margin: 30px;
+  font-size: 1.5rem;
+  background-color: red;
+  border: 0;
+  border-radius: 20px;
+}

@@ -1,0 +1,10 @@
+<h1 class="savedNumbers">{{ savedNumbers }}</h1>
+
+<app-clicker
+  [currentNumber]="currentNumber"
+  (onImageClicked)="imageClicked($event)"
+></app-clicker>
+
+<div class="flex-container">
+  <button class="reset-button" (click)="reset()">Reset</button>
+</div>
