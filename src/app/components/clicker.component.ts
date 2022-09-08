@@ -61,6 +61,12 @@ export class ClickerComponent implements OnInit {
     this.updateImage(this._currentNumber);
   }
 
+  reset() {
+    console.info('Reseting number in clicker to 0');
+    this.currentNumber = 0;
+    this.buttonPrevDisable = true;
+  }
+
   @Output()
   onImageClicked = new Subject<number>();
 

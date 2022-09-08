@@ -1,6 +1,7 @@
 <h1 class="savedNumbers">{{ savedNumbers }}</h1>
 
 <app-clicker
+  #clicker
   [currentNumber]="currentNumber"
   (onImageClicked)="imageClicked($event)"
 ></app-clicker>
